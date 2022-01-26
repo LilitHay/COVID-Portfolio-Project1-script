@@ -16,11 +16,15 @@ All analysis was arranged with BigQuery data warehouse.
 4. Infection Rate vs Population (Looking at the countries with Highest Infection Rate Per Population)
 
 5. Deaths count vs Population (Showing the countries with the Highest Death Count Per Populationn)
+
 6. ANALYSING BY CONTINENT
+
    Showing the Continent with the Highest Death Count Per Populationn
 
 7. GLOBAL NUMBERS
+
    Total Death Rate globally
+   
    Total Population vs Vaccinations ( Number of Population that has recieved at least one Covid Vaccine)
 
 8. Using CTE to perform Calculation on Partition By in previous query and looking at the Percentage Of Vaccined People
