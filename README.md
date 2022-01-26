@@ -1,4 +1,4 @@
-# COVID-Portfolio-Project1_BigQuery_script
+# COVID19-Portfolio-Project1_BigQuery_script
 This repository holds script of COVID19 analysis with BigQuery.
 
 
