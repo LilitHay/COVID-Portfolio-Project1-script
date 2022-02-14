@@ -100,7 +100,7 @@ WHERE continent IS NOT NULL
 --Total Population vs Vaccinations
 --Shows Number of Population that has recieved at least one Covid Vaccine
 
-SELECT dea.continent, dea.location, dea.date, dea.population,vac.new_vaccinations, SUM(vac.new_vaccinations) OVER 
+SELECT dea.continent, dea.location, dea.date, dea.population,vac.new_vaccinations,SUM(CAST(vac.new_vaccinations AS bigint)) OVER 
 (PARTITION BY dea.location ORDER BY dea.location, dea.date) AS RollPeopleVaccinated
 FROM noble-district-333321.PortfolioProjects.Vaccinations as vac
 JOIN noble-district-333321.PortfolioProjects.Deaths as dea
