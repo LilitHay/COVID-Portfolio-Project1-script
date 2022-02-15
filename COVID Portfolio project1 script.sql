@@ -1,6 +1,6 @@
 /* For COVID19 analysis had been used dataset available in "Our World in data" from the period of January 24, 2020 - January 24, 2022.
 Link to Dataset: https://ourworldindata.org/covid-deaths
-All analysis was arranged with BigQuery data warehouse.
+All analysis was arranged in BigQuery data warehouse.
 */
 
 -- Checking COVID19 Deaths dataset
